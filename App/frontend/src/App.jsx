@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard';
 import HoistingDemo from './components/HoistingDemo';
 import PromisesVsCallbacksDemo from './components/PromisesVsCallbacksDemo';
 import SqlJoinsDemo from './components/SqlJoinsDemo';
+import EventLoopDemo from './components/EventLoopDemo';
 
 function App() {
   return (
@@ -28,6 +29,11 @@ function App() {
           <Route path="/sql-joins" element={
             <div style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
               <SqlJoinsDemo />
+            </div>
+          } />
+          <Route path="/event-loop" element={
+            <div style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
+              <EventLoopDemo />
             </div>
           } />
         </Routes>

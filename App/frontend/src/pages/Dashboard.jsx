@@ -149,6 +149,9 @@ export default function Dashboard() {
           <Link to="/promises-vs-callbacks" className="btn outline">
             <Code size={16} /> Promises vs Callbacks
           </Link>
+          <Link to="/event-loop" className="btn outline">
+            <Code size={16} /> Event Loop
+          </Link>
           <Link to="/sql-joins" className="btn outline">
             <Database size={16} /> SQL JOINs
           </Link>
